@@ -279,7 +279,7 @@
 								<div class="clearfix"> </div>
 							</div>
 						</div>
-						<%# <div role="tabpanel" class="tab-pane fade" id="tours" aria-labelledby="tours-tab">
+						<div role="tabpanel" class="tab-pane fade" id="tours" aria-labelledby="tours-tab">
 							<div class="agile-tp">
 								<h5>This week</h5>
 								<p class="w3l-ad">We've pulled together all our advertised offers into one place, so you won't miss out on a great deal.</p>
@@ -348,7 +348,7 @@
 																<i class="fa fa-star gray-star" aria-hidden="true"></i>
 															</div>
 															<h4>$30.99 <span>$45.00</span></h4>
-														</div> %> 
+														</div> %>
 														<%# <div class="snipcart-details top_brand_home_details">
 															<form action="#" method="post">
 																<fieldset>
@@ -562,16 +562,16 @@
     ================================================== -->
     <%# <div id="myCarousel" class="carousel slide" data-ride="carousel"> %>
       <!-- Indicators -->
-      <%# <ol class="carousel-indicators">
+      <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
       </ol>
-      <div class="carousel-inner" role="listbox"> %>
-        <%# <div class="item active">
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
          <%# <a href="beverages.html"> <img class="first-slide" src="images/b1.jpg" alt="First slide"></a> %>
 
-        <%# </div>
+        </div>
         <div class="item">
          <a href="personalcare.html"> <img class="second-slide " src="images/b3.jpg" alt="Second slide"></a>
 
@@ -582,7 +582,7 @@
         </div>
       </div>
 
-    </div><!-- /.carousel -->  %>
+    </div><!-- /.carousel -->
 <!--banner-bottom-->
 				<div class="ban-bottom-w3l">
 					<div class="container">

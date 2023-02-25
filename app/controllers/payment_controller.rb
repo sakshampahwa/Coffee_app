@@ -30,5 +30,11 @@ class PaymentController < ApplicationController
               render :action => "checkout"
             end
     end
+    if user_signed_in? 
+      render :action => "checkout"
+    else 
+      flash[:notice]= "Something went wrong."
+      redirect_to root_path
+    end 
   end
 end
